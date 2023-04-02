@@ -1,0 +1,83 @@
+html{
+    background-color:  rgb(119, 3, 143);
+    height: 100vh;
+  }
+  
+  body {color:rgb(68, 37, 0);
+    background-color: rgb(255, 249, 171);
+    margin:auto;
+    width: 95%;
+    height: 95%;}
+  
+  body h1{text-align: center;
+    font-size: 35px;}
+  
+  nav div{ margin:auto; border:0px solid red; width: 70%; text-align: center;  /*color:aliceblue;*/}
+  
+  main{margin: auto;
+    width: 95%;
+    height: 95%;}
+  
+  figure{display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border:0px solid green;
+    width:75%;
+    margin:auto;
+    tab-size: 2%;}
+  
+    img {background-position: center;
+      padding: 30px;
+      margin:auto;
+      width:60%;}
+  
+    article p{color: black;
+      -moz-box-pack: auto;
+      text-align: center;
+      margin:auto;
+      position: relative;
+      text-align: justify;
+      width: 80%;}
+  
+  section p{
+      color: black;
+      -moz-box-pack: auto;
+      text-align: center;
+      margin:auto;
+      position: relative;
+      text-align: justify;
+      width: 80%;
+      border-radius: 10px;
+    font-size: 30px;}
+      
+
+
+
+nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  border:0px solid rgb(31, 64, 212);
+} 
+
+nav ul li{
+  display:inline-block;
+
+ 
+}
+
+
+    nav ul li  a{
+      color:ivory;
+      text-decoration: none;
+      padding: 15px;
+      background-color: rgb(0, 52, 224);
+      border-radius: 8px;
+      font-size:1.5em;
+      color:ivory;
+      padding: 15px;
+      background-color: rgb(80, 147, 248);
+  }

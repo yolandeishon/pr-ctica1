@@ -1,0 +1,92 @@
+html{
+  background-color: rgb(119, 3, 143);
+  height:100vh;
+}
+body {color:rgb(0, 0, 0);
+    background-color: rgb(255, 249, 171);
+    margin:auto;
+    width: 95%;
+    height: 95%;
+ }
+
+    
+h1{text-align:center;
+    color: rgb(119, 3, 143);
+  font-size: 55px;}
+
+main{margin: auto;
+      justify-content:flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      height: 80%;
+
+    }
+
+section{
+      display: flex;
+      flex-direction: row; 
+      width: 95%;
+      height: 80%;
+      border:0px solid green;
+      text-align: center;
+    }
+   
+article{
+  width:80%;
+  height: 80%;
+}    
+article p{
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      justify-content:left;
+      text-align: justify;
+    }
+
+figure{
+  width:80%;
+}
+
+
+figure img{ 
+  background-position:right;
+  margin:right;
+  width:95%;
+  width: 95%;
+  display:flex;
+  flex-direction: row;
+  display:flexbox;}
+  nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    border:0px solid rgb(31, 64, 212);
+  } 
+  
+  nav ul li{
+    display:inline-block;
+  
+   
+  }
+  
+  
+      nav ul li  a{
+        color:ivory;
+        text-decoration: none;
+        padding: 15px;
+        background-color: rgb(0, 52, 224);
+        border-radius: 8px;
+        font-size:1.5em;
+        color:ivory;
+        padding: 15px;
+        background-color: rgb(80, 147, 248);
+    }
+
+a{color:black;
+  font-size: 15px;
+}
+      
